@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css" />
 </head>
 <body>
     <nav id="nav-bar"> 
@@ -13,17 +14,17 @@
         <div>
             <ul class="nav-list" id="nav-list">
                 <li> <a href="#about"> about</a></li>
-                <li> <a href="#expirence"> Expirence</a></li>
+                <li> <a href="#skills"> skills</a></li>
                 <li> <a href="#projects"> Projects</a></li>
                 <li> <a href="#cotact"> Cotact</a></li>
             </ul>
         </div>
     </nav>
-    <section class="profile">
+    <section id="profile">
         <div class="section-text">
-            <p class="section-text-p1">hellp im</p>
+            <p class="section-text-p1">Hello Im </p>
             <h1 class="title">josh</h1>
-            <p class="section-text-p2">developer im</p>
+            <p class="section-text-p2">Developer FullStack</p>
             <div class="btn-container">
                 <button class="btn btn-resume" onclick="window.open('assets/CV.pdf')">resum</button>
                 <button class="btn btn-contact" onclick="location.href='./#cotact'">contact</button>
@@ -34,10 +35,160 @@
             </div>
         </div>
     </section>
-    
+    <section id="about">
+       
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+          <div class="about-details-container">
+            <div class="about-containers">
+              <div class="details-container">
+                <img
+                  src="./assets/experience.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <h3>Experience</h3>
+                <p>1 year <br />Full stack Tutor</p>
+              </div>
+              <div class="details-container">
+                <img
+                  src="./assets/education.png"
+                  alt="Education icon"
+                  class="icon"
+                />
+                <h3>Education</h3>
+                <p>Sela colleg</p>
+              </div>
+            </div>
+            <div class="text-container">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis
+                reprehenderit et laborum, rem, dolore eum quod voluptate
+                exercitationem nobis, nihil esse debitis maxime facere minus sint
+                delectus velit in eos quo officiis explicabo deleniti dignissimos.
+                Eligendi illum libero dolorum cum laboriosam corrupti quidem,
+                reiciendis ea magnam? Nulla, impedit fuga!
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="skills">
+        <h1 class="title"> My Skills</h1>
+        <div class="skill-detail-containers">
+          <div class="about-containers">
+            <div class="details-container">
+              <h2 class="skill-sub-title">frontend</h2>
+              <div class="article-container">
+                <article>
+                  <img src="./assets/checkmark.png" alt="checkmark icon" class="icon">
+                  <div>
+                    <h3>HTML</h3>
+                  </div>
+                </article>
+                <article>
+                  <img src="./assets/checkmark.png" alt="checkmark icon" class="icon">
+                  <div>
+                    <h3>ASP.NET</h3>
+                  </div>
+                </article>
+                <article>
+                  <img src="./assets/checkmark.png" alt="checkmark icon" class="icon">
+                  <div>
+                    <h3>CSS</h3>
+                  </div>
+                </article>
+                <article>
+                  <img src="./assets/checkmark.png" alt="checkmark icon" class="icon">
+                  <div>
+                    <h3>JavaScript</h3>
+                  </div>
+                </article>
+                <article>
+                  <img src="./assets/checkmark.png" alt="checkmark icon" class="icon">
+                  <div>
+                    <h3>WPF</h3>
+                  </div>
+                </article>
+              </div>
+            </div>
+            <div class="details-container">
+              <h2 class="skill-sub-title">BackEnd</h2>
+              <div class="article-container">
+                <article>
+                  <img src="./assets/checkmark.png" alt="checkmark icon" class="icon">
+                  <div>
+                    <h3>ASP.NET</h3>
+                  </div>
+                </article>
+                <article>
+                  <img src="./assets/checkmark.png" alt="checkmark icon"class="icon">
+                  <div>
+                    <h3>C#</h3>
+                  </div>
+                </article>
+                <article>
+                  <img src="./assets/checkmark.png" alt="checkmark icon"class="icon">
+                  <div>
+                    <h3>SQL&SSMS</h3>
+                  </div>
+                </article>
+              </div>
+          </div>
+        </div>
 
-
-    </section>
+      </section>
+      <section id="projects">
+        <h1 class="title"> projects</h1>
+        <div class="skill-detail-containers">
+          <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/project.jpg" alt="project img" class="projec-img">
+            </div>
+            <h2 class="skill-sub-title project-title">project 1</h2>
+            <div class="btn-container">
+              <button class="btn btn-color-2" onclick="window.open('https://github.com/josh6512')">GitHub</button>
+              <button class="btn btn-color-2" onclick="">Demo Live</button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/project.jpg" alt="project img" class="projec-img">
+            </div>
+            <h2 class="skill-sub-title project-title">project 1</h2>
+            <div class="btn-container">
+              <button class="btn btn-color-2" onclick="window.open('https://github.com/josh6512')">GitHub</button>
+              <button class="btn btn-color-2" onclick="">Demo Live</button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/project.jpg" alt="project img" class="btn projec-img">
+            </div>
+            <h2 class="skill-sub-title project-title">project 1</h2>
+            <div class="btn-container">
+              <button class="btn btn-color-2" onclick="window.open('https://github.com/josh6512')">GitHub</button>
+              <button class="btn btn-color-2" onclick="">Demo Live</button>
+            </div>
+          </div>
+        </div>
+        </div>
+      </section>
+      <section id="contact">
+       <h1 class="title"> Contact Me</h1>
+       <div class="contact-info-upper-container">
+       <div class="contact-info-container">
+        <img src="./assets/email.png" alt="email icon" class="icon contact-icon">
+        <p><a href="mailto:yhoshoa144@gmail.com">yhoshoa144@gmail.com</a></p>
+       </div>
+       <div class="contact-info-container">
+        <img src="./assets/linkedin.png" alt="linkedin icon" class="icon contact-icon">
+        <p><a onclick="window.open('https://www.linkedin.com/in/YhoshoaElizarov/')">linkedin</a></p>
+       </div>
+      </div>
+      </section>
     <script src="script.js"></script>
+    
 </body>
 </html>

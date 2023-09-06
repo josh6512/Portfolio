@@ -1,4 +1,4 @@
-// Get references to the toggle button and navigation links
+
 const navbarToggle = document.getElementById('navbar-toggle');
 const navbarLinks = document.getElementById('nav-list');
 
