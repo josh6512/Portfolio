@@ -121,7 +121,7 @@ font-size: 1.75rem;
 margin-bottom: 1rem;
 }
 .title{
-    font-size: 3rem;
+    font-size: 2.5rem;
     text-align: center;
 }
 .container-social{
@@ -194,11 +194,20 @@ cursor: pointer;
     border: rgb(53, 53, 53) 0.1rem solid;
     border-color: rgb(163, 163, 163);
     text-align: center;
+    text-align: center;
+    width: 300px; 
+    margin: 20px; 
   }
   
   .section-container {
     gap: 4rem;
-    height: 80%;
+    height: 20%;
+     display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center; 
+            flex-direction: column; 
+           
   }
   
   .section__pic-container {
@@ -322,4 +331,4 @@ cursor: pointer;
   }
   
   
-  
+   
