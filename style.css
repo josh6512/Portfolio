@@ -68,6 +68,7 @@ section{
     margin: 0 10rem;
     box-sizing: border-box;
     min-height: fit-content;
+    /* margin-top: -400px; */
 }
 .section-container,#profile{
      display: flex;
@@ -297,9 +298,25 @@ cursor: pointer;
     cursor: default;
   }
   
-  .email-icon {
-    height: 2.5rem;
+  .pen-icon {
+    /* margin-bottom: -10px; */
+    size: 10px;
+    height: 1.7rem
   }
   
   
+   .content-title{
+    text-align: center;
    
+    margin-top: -20px;
+   }
+   input {
+    display: table-cell;
+    margin-bottom: 10px;
+  }
+  .email-icon{
+margin-bottom: -10px;
+  }
+  .content-label{
+    margin-top: 50px;
+  }
