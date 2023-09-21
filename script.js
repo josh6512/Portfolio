@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", function () {
         });
 
         // Send the data to the server using a POST request
-        fetch("/", {
+        fetch("https://main--graceful-florentine-3aaca2.netlify.app/", {
             method: "POST",
             body: JSON.stringify(formDataObj),
             headers: {
