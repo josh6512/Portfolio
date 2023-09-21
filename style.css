@@ -320,3 +320,8 @@ margin-bottom: -10px;
   .content-label{
     margin-top: 50px;
   }
+  .btn-submit{
+    flex: content;
+    align-items: center;
+    margin-top: 20px;
+  }
