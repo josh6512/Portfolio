@@ -21,14 +21,19 @@ document.addEventListener("DOMContentLoaded", function () {
         });
 
         // Send the data to the server using a POST request
-        fetch("/", {
+        fetch("https://graceful-florentine-3aaca2.netlify.app/", {
             method: "POST",
             body: JSON.stringify(formDataObj),
             headers: {
                 "Content-Type": "application/json",
             },
         })
-            .then((response) => response.json())
+            .then((response) => {
+                if (!response.ok) {
+                    throw new Error("Network response was not ok");
+                }
+                return response.json();
+            })
             .then((data) => {
                 if (data.success) {
                     alert("Email sent successfully!");

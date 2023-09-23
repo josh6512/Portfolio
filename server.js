@@ -13,7 +13,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(express.static(__dirname));
 
 const corsOptions = {
-    origin: "https://graceful-florentine-3aaca2.netlify.app", // Replace with your client's domain
+    origin: "https://graceful-florentine-3aaca2.netlify.app/", // Replace with your client's domain
     methods: "GET,POST",
     allowedHeaders: "Content-Type,Authorization",
 };
