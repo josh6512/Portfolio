@@ -2,7 +2,7 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const nodemailer = require("nodemailer");
 const cors = require("cors");
-
+const  serverless=  require('serverless-http');
 const app = express();
 
 
@@ -55,7 +55,7 @@ app.post("/", async(req, res) => {
         }
     });
 });
-
+export const handler = serverless(app);
 // Start the server
 const PORT = process.env.PORT || 5501;
 app.listen(PORT, () => {
