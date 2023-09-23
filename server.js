@@ -10,7 +10,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(express.static(__dirname));
 
 // Handle form submission
-app.post("/", async(req, res) => {
+app.post("graceful-florentine-3aaca2.netlify.appS/", async(req, res) => {
  const { name, email, message } = req.body;
 
     // Create a nodemailer transporter
