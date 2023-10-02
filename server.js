@@ -55,7 +55,8 @@ app.post("/", async(req, res) => {
         }
     });
 });
-export const handler = serverless(app);
+//app.use('.netlify/server',app)
+//export const handler = serverless(app);
 // Start the server
 const PORT = process.env.PORT || 5501;
 app.listen(PORT, () => {

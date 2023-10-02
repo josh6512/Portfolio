@@ -164,15 +164,16 @@ cursor: pointer;
   }
   
   .details-container {
-    padding: 1.5rem;
+    padding: 0.5rem;
     flex: 1;
     background: white;
     border-radius: 2rem;
     border: rgb(53, 53, 53) 0.1rem solid;
     border-color: rgb(163, 163, 163);
     text-align: center;
-    width: 300px; 
-    margin: 20px; 
+    width: 150px; 
+    margin: 5px; 
+   
   }
   
   .section-container {
@@ -202,6 +203,7 @@ cursor: pointer;
     display: flex;
     justify-content: center;
     flex-direction: column;
+    
   }
   
  
@@ -228,6 +230,7 @@ cursor: pointer;
 
   #projects {
     position: relative;
+     
   }
   
   .color-container {
@@ -265,7 +268,7 @@ cursor: pointer;
     justify-content: space-around;
   }
   #contact {
-    display: flex;
+    display:flex;
     justify-content: center;
     flex-direction: column;
     height: 70vh;
