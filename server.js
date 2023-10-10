@@ -36,7 +36,7 @@ app.post("/", async(req, res) => {
     },
     });
 
-    // Email data
+    
     const mailOptions = {
         from: email,
         to: "yhoshoa144@gmail.com",
