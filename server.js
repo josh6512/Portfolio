@@ -55,10 +55,10 @@ app.post("/", async(req, res) => {
         }
     });
 });
-//app.use('.netlify/server',app)
-//export const handler = serverless(app);
-// Start the server
-const PORT = process.env.PORT || 5501;
-app.listen(PORT, () => {
-    console.log(`Server is running on port ${PORT}`);
-});
+app.use('.netlify/server', app)
+module.exports.handler = serverless(app);
+
+// const PORT = process.env.PORT || 5501;
+// app.listen(PORT, () => {
+//     console.log(`Server is running on port ${PORT}`);
+// });

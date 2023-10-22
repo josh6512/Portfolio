@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", function () {
         });
 
         
-        fetch("https://main--lambent-chimera-5e9096.netlify.app/", {
+        fetch("https://graceful-florentine-3aaca2.netlify.app", {
             method: "POST",
             body: JSON.stringify(formDataObj),
             headers: {
